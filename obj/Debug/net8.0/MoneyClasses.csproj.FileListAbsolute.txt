@@ -12,3 +12,4 @@ C:\Users\Denis\Documents\projects C#\MoneyClasses\obj\Debug\net8.0\refint\MoneyC
 C:\Users\Denis\Documents\projects C#\MoneyClasses\obj\Debug\net8.0\MoneyClasses.pdb
 C:\Users\Denis\Documents\projects C#\MoneyClasses\obj\Debug\net8.0\MoneyClasses.genruntimeconfig.cache
 C:\Users\Denis\Documents\projects C#\MoneyClasses\obj\Debug\net8.0\ref\MoneyClasses.dll
+C:\Users\Denis\Documents\projects C#\MoneyClasses\obj\Debug\net8.0\MoneyClasses.sourcelink.json

@@ -20,8 +20,9 @@ namespace MoneyClasses
 
         public static Money operator+ (Money num1, Money num2)
         {
-            Money res = num1 + num2;
-            return res;
+            //Money res = num1 + num2;
+            //return res;
+            return new Money(num1.Sum + num2.Sum);
         }
         public static Money operator +(Money num1, double num2)
         {
@@ -97,5 +98,8 @@ namespace MoneyClasses
         {
             Sum = sum;
         }
+
+
+
     }
 }
