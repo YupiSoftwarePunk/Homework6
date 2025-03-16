@@ -1,0 +1,14 @@
+C:\Users\Denis\Documents\projects C#\MoneyClasses\bin\Debug\net8.0\MoneyClasses.exe
+C:\Users\Denis\Documents\projects C#\MoneyClasses\bin\Debug\net8.0\MoneyClasses.deps.json
+C:\Users\Denis\Documents\projects C#\MoneyClasses\bin\Debug\net8.0\MoneyClasses.runtimeconfig.json
+C:\Users\Denis\Documents\projects C#\MoneyClasses\bin\Debug\net8.0\MoneyClasses.dll
+C:\Users\Denis\Documents\projects C#\MoneyClasses\bin\Debug\net8.0\MoneyClasses.pdb
+C:\Users\Denis\Documents\projects C#\MoneyClasses\obj\Debug\net8.0\MoneyClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Denis\Documents\projects C#\MoneyClasses\obj\Debug\net8.0\MoneyClasses.AssemblyInfoInputs.cache
+C:\Users\Denis\Documents\projects C#\MoneyClasses\obj\Debug\net8.0\MoneyClasses.AssemblyInfo.cs
+C:\Users\Denis\Documents\projects C#\MoneyClasses\obj\Debug\net8.0\MoneyClasses.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Documents\projects C#\MoneyClasses\obj\Debug\net8.0\MoneyClasses.dll
+C:\Users\Denis\Documents\projects C#\MoneyClasses\obj\Debug\net8.0\refint\MoneyClasses.dll
+C:\Users\Denis\Documents\projects C#\MoneyClasses\obj\Debug\net8.0\MoneyClasses.pdb
+C:\Users\Denis\Documents\projects C#\MoneyClasses\obj\Debug\net8.0\MoneyClasses.genruntimeconfig.cache
+C:\Users\Denis\Documents\projects C#\MoneyClasses\obj\Debug\net8.0\ref\MoneyClasses.dll
