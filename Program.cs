@@ -17,7 +17,7 @@
             try
             {
                 CheckResult(num1 + num2, "+");
-                CheckResult(num1 - num2, "-");
+                CheckResult(num2 - num1, "-");
                 CheckResult(num1 * 2, "*");
                 CheckResult(num1 / 2, "/");
                 Console.WriteLine($"==: {num1 == num2}");

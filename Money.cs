@@ -20,8 +20,6 @@ namespace MoneyClasses
 
         public static Money operator+ (Money num1, Money num2)
         {
-            //Money res = num1 + num2;
-            //return res;
             return new Money(num1.Sum + num2.Sum);
         }
         public static Money operator +(Money num1, double num2)
@@ -32,8 +30,7 @@ namespace MoneyClasses
 
         public static Money operator- (Money num1, Money num2)
         {
-            Money res = num1 - num2;
-            return res;
+            return new Money(num1.Sum - num2.Sum);
         }
 
         public static Money operator- (Money num1, double num2)
@@ -46,60 +43,55 @@ namespace MoneyClasses
 
         public static Money operator* (Money num1, int num2)
         {
-            Money res = num1 * num2;
-            return res;
+            return new Money(num1.Sum * num2);
         }
 
         public static Money operator/ (Money num1, int num2)
         {
-            Money res = num1 / num2;
-            return res;
+            if (num2 == 0)
+            {
+                throw new DivideByZeroException("Деление на ноль запрещено!!");
+            }
+            return new Money(num1.Sum / num2);
         }
 
 
 
-        public static Money operator++ (Money sum)
+        public static Money operator++ (Money num)
         {
-            Money res = sum;
-            res += 0.1;
-            return res;
+            return new Money(num.Sum + 0.1);
         }
 
-        public static Money operator-- (Money sum)
+        public static Money operator-- (Money num)
         {
-            Money res = sum;
-            res -= 0.1;
-            return res;
+            return new Money(num.Sum - 0.1);
         }
 
 
 
         public static bool operator> (Money num1, Money num2)
         {
-            return num1 > num2;
+            return num1.Sum > num2.Sum;
         }
 
         public static bool operator <(Money num1, Money num2)
         {
-            return num1 < num2;
+            return num1.Sum < num2.Sum;
         }
 
         public static bool operator ==(Money num1, Money num2)
         {
-            return num1 == num2;
+            return num1.Sum == num2.Sum;
         }
 
         public static bool operator !=(Money num1, Money num2)
         {
-            return num1 != num2;
+            return num1.Sum != num2.Sum;
         }
 
         public Money(double sum)
         {
             Sum = sum;
         }
-
-
-
     }
 }
